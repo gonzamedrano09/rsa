@@ -136,7 +136,7 @@ def main():
 
         # Realizo acciones segun opcion
         if op == 1:
-            klen = int(input("\nIngrese el oden de p y q: "))
+            klen = int(input("\nIngrese el orden de p y q: "))
             key_privada, key_publica = generar_keys(klen)
             print("Su clave privada actual es:", key_privada)
             print("Su clave publica actual es:", key_publica)
